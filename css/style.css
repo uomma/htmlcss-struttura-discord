@@ -9,23 +9,74 @@
     box-sizing: border-box;
 }
 
+.riga1, .riga2, .riga3, .riga4 {
+    display: flex;
+}
+
+
+.debug .riga1 {
+    height: 500px;   
+    padding: 50px; 
+    justify-content: center ; 
+}
+.debug .riga2 {
+    height: 500px;   
+    padding: 50px; 
+    justify-content: center ; 
+    background-color: #d3d3d3    
+}
+
+
+.debug .riga3 {
+    height: 500px;   
+    padding: 50px; 
+    justify-content: center ;       
+}
+
+
+.debug .riga4 {
+    height: 900px;
+    padding: 50px; 
+    justify-content: center ;
+    background-color: #d3d3d3    
+ 
+}
+
+
+.debug .col-big{
+    background-color: #1e90ff;
+   width: 715px ;
+   border-style: dashed;
+   border: 10px solid black dotted;  
+}
+
+.debug .col-small{
+    background-color: #ffc0cb;
+    width: 500px;
+    border-style: dashed;
+    border: 10px solid black dotted;    
+}
+
+.debug .col-unica{
+    background-color: #228b22;
+    width: 1200px;
+    border-style: dashed;
+    border: 10px solid black dotted;    
+}
+
+
 .Htop{
-    
     display: flex;
     background-color:#add8e6 ;
     padding: 15px;
-    justify-content: center;
-  
+    justify-content: center; 
 }
 
-.Hbottom{
-       
+.Hbottom{   
     display: flex;
     background-color:#00008b ;
     padding: 25px;
     justify-content: center;
-  
-
 }
 
 .logo{
@@ -34,10 +85,8 @@
     border-style: dashed;
     border: 10px solid black dotted;
     padding: 5px;
-    
-   
-
 }
+
 .link{
     width: 25%;
     background-color: #daa520;
@@ -45,8 +94,8 @@
     border: 10px solid black dotted;
     text-align: center;
     padding: 5px;
-
 }
+
 .login{
     width: 25%;
     background-color: #daa520;
@@ -54,9 +103,6 @@
     border: 10px solid black dotted;
     text-align: end;
     padding: 5px;
-
-   
-
 }
 
 .container{
@@ -65,5 +111,11 @@
     background-color: #ee82ee;
     border-style: dashed;
     border: 10px solid black dotted
-
 }
+
+
+
+
+
+
+/* footer*/
